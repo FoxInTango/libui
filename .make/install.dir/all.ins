@@ -5,6 +5,9 @@ install.header:
 ifneq ($(wildcard $(HEADER_INSTALL_PATH)),)
 	-rm -rf $(HEADER_INSTALL_PATH)/$(TARGET_NAME)
 	-mkdir  $(HEADER_INSTALL_PATH)/$(TARGET_NAME)
+	-mkdir  $(HEADER_INSTALL_PATH)/$(TARGET_NAME)/core
+	-mkdir  $(HEADER_INSTALL_PATH)/$(TARGET_NAME)/view
+	-mkdir  $(HEADER_INSTALL_PATH)/$(TARGET_NAME)/surface
 	-cd src && cp *.h  $(HEADER_INSTALL_PATH)/$(TARGET_NAME)
 endif
 install.bin:
