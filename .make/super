@@ -1,4 +1,2 @@
-SUPER_MAKE_DIR=/home/lidali/alpine/libraries/libtango/
-SUPER_MAKE_CONFIG_DIR=/home/lidali/alpine/libraries/libtango/.make
 SUPER_MAKE_DIR=/home/lidali/alpine/
 SUPER_MAKE_CONFIG_DIR=/home/lidali/alpine/.make
