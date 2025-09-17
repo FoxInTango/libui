@@ -5,7 +5,7 @@
 
 EXTERN_C_BEGIN
 namespaceBegin(foxintango)
-class UIElement :public ESScriptObject {
+class UIElement { //:public ESScriptObject {
 
 };
 namespaceEnd
