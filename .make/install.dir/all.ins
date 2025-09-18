@@ -10,7 +10,7 @@ ifneq ($(wildcard $(HEADER_INSTALL_PATH)),)
 	-mkdir  $(HEADER_INSTALL_PATH)/$(TARGET_NAME)/surface
 	-cd src         && cp *.h $(HEADER_INSTALL_PATH)/$(TARGET_NAME)
 	-cd src/core    && cp *.h ${HEADER_INSTALL_PATH}/$(TARGET_NAME)/core
-	=cd src/view    && cp *.h ${HEADER_INSTALL_PATH}/$(TARGET_NAME)/view
+	-cd src/view    && cp *.h ${HEADER_INSTALL_PATH}/$(TARGET_NAME)/view
 	-cd src/surface && cp *.h ${HEADER_INSTALL_PATH}/$(TARGET_NAME)/surface
 endif
 install.bin:
