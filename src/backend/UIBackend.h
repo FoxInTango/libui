@@ -6,7 +6,10 @@
 
 EXTERN_C_BEGIN
 namespaceBegin(foxintango)
-class UIBackendImpl;
+/** 
+ * graphics backend
+ * sound    backend
+ * */
 class foxintangoAPI UIBackend{
 private:
     UIBackendImpl* impl;
@@ -19,7 +22,6 @@ public:
     UIBackend();
     ~UIBackend();
 public:
-    void setImpl(UIBackendImpl* impl);
 };
 namespaceEnd
 EXTERN_C_END
